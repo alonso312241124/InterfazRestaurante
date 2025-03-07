@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-container .btn {
+    width: 100%;
+}
+
+.login-container .register-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#registerDialog {
+    width: 90%;
+    max-width: 350px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#registerDialog h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#registerDialog .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
